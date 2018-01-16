@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <testmodules.telyo.com.carouselview.BannerFrameLayout
+        android:id="@+id/vbf_carouse"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" />
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+      />
+
+    <ImageView
+        android:id="@+id/iv_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+       />
+
+    <ImageView
+        android:id="@+id/iv_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+     />
+
+    <ImageView
+        android:id="@+id/iv_4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+      />
+</LinearLayout>

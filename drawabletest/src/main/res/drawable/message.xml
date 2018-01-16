@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="1" android:minLevel="1">
+        <layer-list>
+            <item>
+                <bitmap android:src="@drawable/ic_launcher_round"/>
+            </item>
+            <item android:width="15dp" android:height="15dp" android:gravity="top|right">
+                <shape android:shape="oval">
+                    <solid android:color="@color/colorAccent"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:minLevel="0" android:maxLevel="0" android:drawable="@drawable/ic_launcher_round"/>
+    
+</level-list>

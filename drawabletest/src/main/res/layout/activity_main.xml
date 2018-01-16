@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_drawable_test"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="drawable 的用法技巧 点击背景效果"
+            android:clickable="true"
+            android:background="@drawable/press"
+            android:textColor="@android:color/white"/>
+
+
+        <ImageView
+            android:layout_margin="20dp"
+            android:src="@drawable/layer_list"
+            android:id="@+id/iv_drawable_test"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="drawable 的用法技巧 点击动画效果 api21"
+            android:clickable="true"
+            android:background="@drawable/press"
+            android:stateListAnimator="@animator/press_animator"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="带尖角的气泡"
+            android:clickable="true"
+            android:background="@drawable/rectangle_dubble"
+            android:stateListAnimator="@animator/press_animator"
+            android:textColor="@android:color/white"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bitmap"/>
+        <ImageView
+            android:id="@+id/iv_show_message"
+            android:layout_margin="10dp"
+            android:stateListAnimator="@animator/press_animator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/message"/>
+    </LinearLayout>
+</ScrollView>

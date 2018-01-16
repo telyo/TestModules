@@ -1,0 +1,1 @@
+include ':annotation', ':eventbus', ':mvp', ':drawabletest', ':mvptest', ':carouselview', ':mybanner', ':recyclerbanner'
