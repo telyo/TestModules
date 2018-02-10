@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_of"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="开关1" />
+        <Button
+            android:id="@+id/btn_of_2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="开关2" />
+    </LinearLayout>
+
+    <com.telyo.scrollmenu.scrollmenu.ScrollMenuLayout
+        android:id="@+id/scrollMenuLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:childDefaultLayoutId="@layout/scroll_menu">
+       
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:src="@mipmap/ic_launcher_round"/>
+    </com.telyo.scrollmenu.scrollmenu.ScrollMenuLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="啦啦啦啦啦啦啦啦啦啦啦"/>
+</LinearLayout>
