@@ -105,9 +105,6 @@ public class ScrollMenuLayout extends RelativeLayout {
         scrollMenu.dismiss(child);
     }
 
-   /* public void setBgVisible(int visibility){
-        bgView.setVisibility(visibility);
-    }*/
 
     public void addMenuChild(int layoutId) {
         scrollMenu.addChild(layoutId);

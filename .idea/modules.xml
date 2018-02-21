@@ -4,18 +4,30 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestModules.iml" filepath="$PROJECT_DIR$/TestModules.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
       <module fileurl="file://H:\TestModules\annotation\app.iml" filepath="H:\TestModules\annotation\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/carouselview/carouselview.iml" filepath="$PROJECT_DIR$/carouselview/carouselview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carouselview/carouselview.iml" filepath="$PROJECT_DIR$/carouselview/carouselview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doublerdatepick/doublerdatepick.iml" filepath="$PROJECT_DIR$/doublerdatepick/doublerdatepick.iml" />
       <module fileurl="file://$PROJECT_DIR$/doublerdatepick/doublerdatepick.iml" filepath="$PROJECT_DIR$/doublerdatepick/doublerdatepick.iml" />
       <module fileurl="file://$PROJECT_DIR$/drawabletest/drawabletest.iml" filepath="$PROJECT_DIR$/drawabletest/drawabletest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawabletest/drawabletest.iml" filepath="$PROJECT_DIR$/drawabletest/drawabletest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventbus/eventbus.iml" filepath="$PROJECT_DIR$/eventbus/eventbus.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventbus/eventbus.iml" filepath="$PROJECT_DIR$/eventbus/eventbus.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvptest/mvptest.iml" filepath="$PROJECT_DIR$/mvptest/mvptest.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvptest/mvptest.iml" filepath="$PROJECT_DIR$/mvptest/mvptest.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
       <module fileurl="file://H:\TestModules\eventbus\myapplication.iml" filepath="H:\TestModules\eventbus\myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybanner/mybanner.iml" filepath="$PROJECT_DIR$/mybanner/mybanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybanner/mybanner.iml" filepath="$PROJECT_DIR$/mybanner/mybanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" filepath="$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" filepath="$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrollmenu/scrollmenu.iml" filepath="$PROJECT_DIR$/scrollmenu/scrollmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrollmenu/scrollmenu.iml" filepath="$PROJECT_DIR$/scrollmenu/scrollmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testmoduls.iml" filepath="$PROJECT_DIR$/testmoduls.iml" />
     </modules>
   </component>
 </project>

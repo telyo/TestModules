@@ -138,6 +138,7 @@ public class DoubleDatePicker extends RecyclerView {
 
             calendar.set(Calendar.DAY_OF_MONTH, 1); //由于是获取当月日期信息，所以直接操作当月Calendar即可。将日期调为当月第一天
             List<DateInfo.DayOfMonth> dayOfMonths = new ArrayList<>();
+            dateInfo.setMouth(formatDate(calendar.getTime(), "yyyy年MM月"));
             for (int j = 0; j < maxDay; j++) {
                 Date date = calendar.getTime();
                 DateInfo.DayOfMonth dayOfMonth = new DateInfo.DayOfMonth();
@@ -147,7 +148,6 @@ public class DoubleDatePicker extends RecyclerView {
                 calendar.add(Calendar.DAY_OF_MONTH, 1); //向后推移一天
             }
             dateInfo.setDayForMonths(dayOfMonths);
-            dateInfo.setMouth(formatDate(calendar.getTime(), "yyyy年MM月"));
             dateInfo.setStartDayOfWeek(startDayOfWeek);
             dateInfos.add(dateInfo);
         }
