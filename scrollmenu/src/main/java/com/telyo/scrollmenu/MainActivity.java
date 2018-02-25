@@ -31,9 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView iv = findViewById(R.id.iv);
 
-        int w = View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED);
-        int h = View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED);
-        button.measure(w, h);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
