@@ -1,6 +1,8 @@
 package com.telyo.doublerdatepick.DoubleDatePicker.View;
 
+import android.app.Dialog;
 import android.content.Context;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -84,6 +86,7 @@ public class DoubleDatePicker extends RecyclerView {
     private CommonAdapter<DateInfo> adapter;
     private int liveInDays;
 
+    private Dialog mDialog;
     /**
      * @param chooseDates 默认选择日期范围
      */
@@ -278,6 +281,14 @@ public class DoubleDatePicker extends RecyclerView {
                                     updateState(chooseDates.getInDate(), liveInDays);
                                     if (onDatesSelectListener == null) break;
                                     onDatesSelectListener.onSelect(chooseDates);
+                                    if (mDialog!=null){
+                                        handler.postDelayed(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                mDialog.dismiss();
+                                            }
+                                        },1000);
+                                    }
                                 }
                                 break;
                         }
@@ -346,4 +357,8 @@ public class DoubleDatePicker extends RecyclerView {
         return OUT_DAYS;
     }
 
+    public void bindDialog(Dialog dialog){
+        mDialog = dialog;
+    }
+    private Handler handler = new Handler();
 }

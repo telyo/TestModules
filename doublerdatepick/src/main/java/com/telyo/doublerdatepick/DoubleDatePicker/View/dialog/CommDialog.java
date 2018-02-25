@@ -16,7 +16,11 @@ import com.telyo.doublerdatepick.R;
 public class CommDialog extends Dialog {
 
     public CommDialog(@NonNull Context context, int layoutId,int gravity) {
-        this(context, R.style.custom_dialog, layoutId, R.anim.enter_anim, ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT,gravity);
+        this(context, R.style.custom_dialog, layoutId, R.style.custom_dialog_anim, ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT,gravity);
+    }
+
+    public CommDialog(@NonNull Context context, int layoutId, int width,int height,int gravity) {
+        this(context, R.style.custom_dialog, layoutId, R.style.custom_dialog_anim,width,height,gravity);
     }
 
     public CommDialog(@NonNull Context context, int themeResId, int layoutId, int animId, int width, int height,int gravity) {
