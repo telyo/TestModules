@@ -2,7 +2,6 @@ package com.telyo.scrollmenu;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -20,26 +19,29 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         scrollMenuLayout = findViewById(R.id.scrollMenuLayout);
         scrollMenuLayout.addMenuChild(R.layout.menu2);
-        Button button = findViewById(R.id.btn_of);
-        ImageView iv = findViewById(R.id.iv);
+        scrollMenuLayout.addMenuChild(R.layout.menu3);
+        scrollMenuLayout.addMenuChild(R.layout.menu4);
+        scrollMenuLayout.addMenuChild(R.layout.menu5);
+
+        Button button = findViewById(R.id.btn_of_1);
         Button btn_of_2 = findViewById(R.id.btn_of_2);
+        Button btn_of_3 = findViewById(R.id.btn_of_3);
+        Button btn_of_4 = findViewById(R.id.btn_of_4);
+        Button btn_of_5 = findViewById(R.id.btn_of_5);
+
+        ImageView iv = findViewById(R.id.iv);
+
         int w = View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED);
         int h = View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED);
         button.measure(w, h);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.e("scroll", "before 状态  :  " + scrollMenuLayout.isMenuShowing());
-
                 if (!scrollMenuLayout.isMenuShowing()) {
                     scrollMenuLayout.showMenu(0);
                 } else {
                     scrollMenuLayout.dismissMenu(0);
                 }
-                Log.e("scroll", "after 状态  :  " + scrollMenuLayout.isMenuShowing());
-
-                Log.e("scroll", "-------=========-------");
-
             }
         });
         btn_of_2.setOnClickListener(new View.OnClickListener() {
@@ -49,6 +51,39 @@ public class MainActivity extends AppCompatActivity {
                     scrollMenuLayout.showMenu(1);
                 } else {
                     scrollMenuLayout.dismissMenu(1);
+                }
+            }
+        });
+
+        btn_of_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (!scrollMenuLayout.isMenuShowing()) {
+                    scrollMenuLayout.showMenu(2);
+                } else {
+                    scrollMenuLayout.dismissMenu(2);
+                }
+            }
+        });
+
+        btn_of_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (!scrollMenuLayout.isMenuShowing()) {
+                    scrollMenuLayout.showMenu(3);
+                } else {
+                    scrollMenuLayout.dismissMenu(3);
+                }
+            }
+        });
+
+        btn_of_5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (!scrollMenuLayout.isMenuShowing()) {
+                    scrollMenuLayout.showMenu(4);
+                } else {
+                    scrollMenuLayout.dismissMenu(4);
                 }
             }
         });

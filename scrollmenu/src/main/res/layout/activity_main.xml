@@ -10,15 +10,35 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/btn_of"
-            android:layout_width="150dp"
+            android:id="@+id/btn_of_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="50dp"
             android:text="开关1" />
         <Button
             android:id="@+id/btn_of_2"
-            android:layout_width="150dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="50dp"
             android:text="开关2" />
+        <Button
+            android:id="@+id/btn_of_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="开关3" />
+        <Button
+            android:id="@+id/btn_of_4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="开关4" />
+        <Button
+            android:id="@+id/btn_of_5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="开关5" />
     </LinearLayout>
 
     <com.telyo.scrollmenu.scrollmenu.ScrollMenuLayout
