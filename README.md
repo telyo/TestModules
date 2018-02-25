@@ -70,3 +70,6 @@ if (!scrollMenuLayout.isMenuShowing()) {
     scrollMenuLayout.dismissMenu(1);
 }
 ```
+
+这个控件已趋于完成
+
