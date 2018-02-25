@@ -24,7 +24,7 @@ PickerFactory.createFactory().createDatePickerDialog(this, new DoubleDatePicker.
 
 ### 灵活的下拉菜单控件
 
-<!---->![image](https://github.com/telyo/TestModules/blob/master/gif/pmenu.gif?raw=true)
+![image](https://github.com/telyo/TestModules/blob/master/gif/pmenu.gif?raw=true)
 
 简单调用：
 
@@ -70,3 +70,4 @@ if (!scrollMenuLayout.isMenuShowing()) {
     scrollMenuLayout.dismissMenu(1);
 }
 ```
+`java`
